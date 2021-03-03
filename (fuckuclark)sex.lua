@@ -13,7 +13,7 @@ local function hittitan()
         if v:IsA("Model") then
             game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Hit Titan", v.Nape, char.HumanoidRootPart)
             wait()
-            char.HumanoidRootPart.CFrame = v.Nape.CFrame
+            char.HumanoidRootPart.CFrame = v.Nape.CFrame*CFrame.new(0,10,0)
         end
     end
 end
