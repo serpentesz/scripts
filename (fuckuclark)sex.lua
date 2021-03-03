@@ -25,7 +25,7 @@ end
 
 --// ui lib \\--
 local Abstract = loadstring(game:HttpGet("https://raw.githubusercontent.com/AbstractPoo/Main/AbstractUI/AbstractUI"))()
-local UI = Abstract:Create("furry kitty simulator", UDim2.new(0, 420, 0, 450))
+local UI = Abstract:Create("attack on sex", UDim2.new(0, 420, 0, 450))
 UI:Divider("made by serpentes")
 
 --// main script \\--
