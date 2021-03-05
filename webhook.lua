@@ -37,10 +37,10 @@ function specials(Webhook, Message, Botname)
        Name = Botname;
    end
    local Body = {
-       ['Key'] = tostring("applesaregood"),
-       ['Message'] = tostring(Message),
-       ['Name'] = Name,
-       ['Webhook'] = Webhook    
+       ["Key"] = "penis lol",
+       ["Message"] = tostring(Message),
+       ["Name"] = Name,
+       ["ebhook"] = Webhook    
    }
    Body = HttpService:JSONEncode(Body);
    local Data = game:HttpPost(biggie, Body, false, "application/json")
