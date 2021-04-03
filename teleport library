@@ -1,0 +1,16 @@
+--// variables \\--
+local plr = game:service"Players".LocalPlayer
+local char = plr.Character
+
+--// function \\--
+local function teleport(teleportpart)
+    char.HumanoidRootPart.CFrame = teleportpart.CFrame
+end
+
+local function lerptp(teleportpart)
+local start = char.HumanoidRootPart.CFrame
+ for i = 0, 1, 0.01 do
+char.HumanoidRootPart.CFrame = start:lerp(CFrame.new(teleportpart.Position), i)
+wait()
+end
+end
