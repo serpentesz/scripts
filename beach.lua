@@ -1,7 +1,6 @@
-for i,v in pairs(game.Workspace.Washed:GetChildren())do
+for i,v in pairs(game.Workspace:GetDescendants())do
     if v:FindFirstChild("EmptyBottle") then
-        v.ObjectRemote:FireServer()
+        v.EmptyBottle.ObjectRemote:FireServer()
         wait(.2)
     end
 end
-
